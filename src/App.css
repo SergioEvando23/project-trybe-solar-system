@@ -1,4 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  background: url('./images/background.png');
+  background: no-repeat url('./images/background.png');
+  background-size: 100vw 200vh;
+  color: white;
+  font-family: Tahoma , Verdana , sans-serif;
+  overflow-x: hidden;
   text-align: center;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  backdrop-filter: blur(2px);
+  background: rgb(0, 0, 0, 0.99);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(2, 21, 75, 0.589);
 }

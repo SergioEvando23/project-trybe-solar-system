@@ -1,0 +1,12 @@
+.mission-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.missions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

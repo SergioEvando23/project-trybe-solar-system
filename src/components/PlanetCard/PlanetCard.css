@@ -1,0 +1,13 @@
+.planet-card-container img {
+  width: 300px;
+}
+
+.planet-card-container p {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.planet-card-container {
+  margin: 1em 2em;
+  padding: 1em;
+}
