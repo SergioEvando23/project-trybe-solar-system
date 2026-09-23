@@ -24,7 +24,7 @@ class MissionCard extends React.Component {
         <MissionName data-testid="mission-name">{name}</MissionName>
         <Details>
           <Detail data-testid="mission-year"><span>Ano:</span>{year}</Detail>
-          <Detail data-testid="mission-country"><span>PaÃ­s:</span>{country}</Detail>
+          <Detail data-testid="mission-country"><span>País:</span>{country}</Detail>
           <Detail data-testid="mission-destination"><span>Destino:</span>{destination}</Detail>
         </Details>
       </Card>
